@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(rgb(214, 221, 243), rgb(93, 71, 235));
+    background: linear-gradient(rgb(91, 70, 224), black);
 }
 
 .container {
@@ -29,7 +29,7 @@ body {
     width: 100%;
     border-radius: 2.625rem;
     height: 100%;
-    background: linear-gradient(-45deg, rgb(240, 127, 71), rgb(214, 221, 243));
+    background: linear-gradient(-45deg, rgb(16, 7, 120), rgb(255, 0, 0));
     z-index: 6;
     left: -50%;
     transform: translateX(100%);
