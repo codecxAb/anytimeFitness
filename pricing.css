@@ -99,6 +99,15 @@ p {
     margin: 1rem 0rem 1rem 0rem;
 }
 
+.bt {
+    margin-left: -1.2rem;
+    /* border: 2px solid red; */
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 button {
     background-color: rgb(37, 3, 255);
     border-color: transparent;
@@ -109,9 +118,10 @@ button {
     border-radius: 2rem;
     position: relative;
     transition: ease-in-out 0.2s;
-    margin-left: 5rem;
-    margin-top: 2rem;
+    /* margin-left: 4rem;
+    margin-top: 2rem; */
     color: white;
+
 }
 
 .category li {
