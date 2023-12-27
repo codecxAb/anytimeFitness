@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: black;
+    background-color: #171717;
     color: #fff;
 }
 
@@ -109,7 +109,7 @@ button {
     border-radius: 2rem;
     position: relative;
     transition: ease-in-out 0.2s;
-    margin-left: 4rem;
+    margin-left: 5rem;
     margin-top: 2rem;
     color: white;
 }
@@ -143,4 +143,53 @@ a {
 
     text-align: center;
     text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+    .category {
+        width: 14rem;
+        height: 25rem;
+
+    }
+
+    button {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .category {
+        width: 15rem;
+        height: 24rem;
+
+    }
+
+    .pricings {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    button {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+}
+
+@media (max-width: 800px) {
+    .category {
+        width: 14rem;
+        height: 25rem;
+
+    }
+
+    .pricings {
+        gap: 2rem;
+    }
+
+    button {
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
 }
