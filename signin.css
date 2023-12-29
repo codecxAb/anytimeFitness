@@ -13,6 +13,17 @@ body {
     background: linear-gradient(rgb(91, 70, 224), black);
 }
 
+.sign-up-form {
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    right: 19rem;
+    top: 7rem;
+    z-index: 99;
+}
+
 .container {
     position: relative;
     height: 80vh;

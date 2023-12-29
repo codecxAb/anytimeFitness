@@ -13,6 +13,13 @@ body {
     background: linear-gradient(rgb(91, 70, 224), black);
 }
 
+.logo {
+    position: absolute;
+    left: 0.5rem;
+    top: 1rem;
+    z-index: 99;
+}
+
 .container {
     position: relative;
     height: 80vh;
