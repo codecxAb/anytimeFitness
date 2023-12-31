@@ -314,3 +314,12 @@ form p {
         width: 90%;
     }
 }
+
+@media(max-width: 1995px) {
+    .logo {
+        width: 6rem;
+        height: auto;
+        right: 15rem;
+        top: 5rem;
+    }
+}

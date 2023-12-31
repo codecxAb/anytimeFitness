@@ -273,11 +273,19 @@ form p {
     }
 }
 
-@media (max-width:635px) {}
+/* 
+@media (max-width:635px) {} */
 
 @media (max-width:300px) {
     panel {
         display: none;
         opacity: 0;
+    }
+}
+
+@media(max-width: 1995px) {
+    .logo {
+        width: 6rem;
+        height: auto;
     }
 }
